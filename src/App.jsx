@@ -99,12 +99,13 @@ function App() {
   const handleSearchTypeChange = (event) => {
     setSearchType(event.target.value);
   };
-  
+
 
   const handleProductQueryChange = (event) => {
     setProductQuery(event.target.value);
   };
 
+  
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
