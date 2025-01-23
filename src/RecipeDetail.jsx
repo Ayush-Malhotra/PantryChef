@@ -8,7 +8,7 @@ import './RecipeDetail.css';
 //   Path : './.env'
 // })
 
-let apiUrl =import.meta.env.REACT_APP_API_URL;
+let apiUrl =import.meta.env.VITE_API_URL;
 
 
 const RecipeDetail = () => {
